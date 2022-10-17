@@ -18,17 +18,17 @@ body = Element('body')      # creating body element <br>
 html.add(body)
 head.add(Element('title', 'My first website'))        # adding an element in head  with content 'My first website' <br>
 h1 = Element('h1','This is a h1 heading')
-inp = Element('input')
-inp.add_atr('placeholder','Enter your name')
-inp.add_atr('title','Enter your full name')
-body.add(h1)
-body.add(inp)
-btn = Element('button','Submit')
-body.add(btn)
+inp = Element('input') <br>
+inp.add_atr('placeholder','Enter your name') <br>
+inp.add_atr('title','Enter your full name') <br>
+body.add(h1) <br>
+body.add(inp) <br>
+btn = Element('button','Submit') <br>
+body.add(btn) <br>
 
-script = Element('script', 'alert("hello")')    
-body.add(script) 
+script = Element('script', 'alert("hello")')   <br>  
+body.add(script) <br>
 
-#Element.display(html)
+#Element.display(html) <br>
 Element.create_file(html)    # final method to render html file as output
  
