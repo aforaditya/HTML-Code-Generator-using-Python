@@ -11,12 +11,12 @@ This program treats every HTML element as an object.
 Some functions of the program:
 
 
-html = Element('html')      # to create an element (html element)
-head = Element('head')      # creating another element
-html.add(head)              # adding the newly created head element inside the html element
-body = Element('body')      # creating body element
+html = Element('html')      # to create an element (html element)  <br>
+head = Element('head')      # creating another element <br>
+html.add(head)              # adding the newly created head element inside the html element <br>
+body = Element('body')      # creating body element <br>
 html.add(body)
-head.add(Element('title', 'My first website'))        # adding an element in head  with content 'My first website'
+head.add(Element('title', 'My first website'))        # adding an element in head  with content 'My first website' <br>
 h1 = Element('h1','This is a h1 heading')
 inp = Element('input')
 inp.add_atr('placeholder','Enter your name')
